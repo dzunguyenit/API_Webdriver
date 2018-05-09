@@ -22,7 +22,7 @@ public class api_08_javaScript {
 		// ".\\driver\\chromedriver.exe");
 		System.setProperty("webdriver.ie.driver", ".\\driver\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
-		// driver = new ChromeDriver();
+		/// driver = new ChromeDriver();
 
 	}
 
