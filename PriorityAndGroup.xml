@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login">
+	<test name="Login With Valid Username And Password">
+		<groups>
+			<run>
+				<include name="LoginInvalidInfor" />
+				<!-- <include name="LoginEmpty" /> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="webdriver_10_testng.TestNG_PriorityAndGroup" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestNGParameters_01">
+		<parameter name="userName" value="mngr109856" />
+		<parameter name="passWord" value="qArejUn" />
+		<classes>
+			<class name="webdriver_10_testng.TestNG_Parameters" />
+		</classes>
+	</test>
+	<test name="TestNGParameters_02">
+		<parameter name="userName" value="mngr109859" />
+		<parameter name="passWord" value="mUbypaz" />
+		<classes>
+			<class name="webdriver_10_testng.TestNG_Parameters" />
+		</classes>
+	</test>
+	<test name="TestNGParameters_03">
+		<parameter name="userName" value="mngr109861" />
+		<parameter name="passWord" value="UzahajY" />
+		<classes>
+			<class name="webdriver_10_testng.TestNG_Parameters" />
+		</classes>
+	</test>
+</suite>
